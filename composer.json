@@ -1,0 +1,22 @@
+{
+    "name": "kesimard/compiler",
+    "minimum-stability": "dev",
+    "description": "Compiles files to a single compressed CSS/JS file.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin Simard",
+            "email": "ksimard@outlook.com"
+        }
+    ],
+    
+    "require": {
+    	"php": ">=5.3.0",
+    	"kriswallsmith/assetic": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Compiler": "src/"
+        }
+    }
+}
